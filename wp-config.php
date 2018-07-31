@@ -80,7 +80,7 @@ $table_prefix  = 'wp_';
 define('WP_DEBUG', false);
 set_time_limit(600);
 /* That's all, stop editing! Happy blogging. */
-
+define('WP_ALLOW_REPAIR', true);
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
